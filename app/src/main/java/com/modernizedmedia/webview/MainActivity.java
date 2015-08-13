@@ -1,23 +1,21 @@
     package com.modernizedmedia.webview;
 
     import android.app.Activity;
-import android.app.ProgressDialog;
-import android.os.Bundle;
-import android.view.View;
-import android.view.Window;
-import android.webkit.WebChromeClient;
-import android.webkit.WebSettings;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
-import android.widget.Button;
-import android.widget.Toast;
+    import android.app.ProgressDialog;
+    import android.os.Bundle;
+    import android.view.View;
+    import android.view.Window;
+    import android.webkit.WebChromeClient;
+    import android.webkit.WebSettings;
+    import android.webkit.WebView;
+    import android.webkit.WebViewClient;
+    import android.widget.Button;
+    import android.widget.Toast;
 
 
     public class MainActivity extends Activity {
 
         private WebView mWebView;
-
-        final Activity activity = this;
 
         private ProgressDialog progress;
 
